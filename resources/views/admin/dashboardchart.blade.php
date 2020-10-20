@@ -1,3 +1,15 @@
+@extends('layouts.master')
+
+@section('title')
+    Dashboardchart-chart
+@endsection
+
+@section('l4')
+    class="active "
+@endsection
+
+@section('content')
+
 <!DOCTYPE html>
 <html>
  <head>
