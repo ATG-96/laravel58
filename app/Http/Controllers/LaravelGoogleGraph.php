@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use DB;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class LaravelGoogleGraph extends Controller
@@ -21,4 +22,13 @@ class LaravelGoogleGraph extends Controller
      }
      return view('admin.dashboardchart')->with('gender', json_encode($array));
     }
+
+    function gettime()
+    {
+        
+     $current_timestamp = Carbon::now()->timestamp; 
+     return view('admin.dashboardchart')->with('time', $current_timestamp);
+    }
+
+
 }
