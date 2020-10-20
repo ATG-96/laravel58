@@ -24,7 +24,7 @@ class LaravelGoogleGraph extends Controller
     }
 
     function gettime()
-    {from public.temp_check where public.temp_check.temp_time >=1603195171210
+    {
         
      $current_timestamp = Carbon::now()->timestamp; 
      $tempcheck = DB::select('SELECT public.users_line.user_id, public.users_line.user_name, public.temp_check.line_id, public.temp_check.temp, public.temp_check.temp_time FROM public.temp_check,public.users_line WHERE public.users_line.line_userid = public.temp_check.line_id AND public.temp_check.temp_time >= $current_timestamp');
