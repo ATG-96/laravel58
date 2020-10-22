@@ -61,8 +61,8 @@
    </div>
   </div>
 
-  <div class="col-md-12">
-  <div class="row">
+ 
+  <div class="container">
         <div class="table-responsive">
           <table class="table">
             <thead class=" text-primary">
@@ -87,8 +87,8 @@
           </table>
         </div>
       </div>
-      </div>
       
+
 
   
  </body>
