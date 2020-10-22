@@ -47,7 +47,7 @@
   <div class="container">
    <h3 align="center">Make Google Pie Chart in Laravel</h3><br />
    
-   <div align="center" class="panel panel-default">
+   <div left margin= 100px; align="center" class="panel panel-default">
     <div align="center" class="panel-heading">
      <h3 align="center" class="panel-title">Percentage of Male and Female Employee</h3>
     </div>
