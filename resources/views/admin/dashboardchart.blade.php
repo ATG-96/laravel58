@@ -42,7 +42,7 @@
   </script>
  </head>
  <body>
-  <br/>
+  <br />
   
 
   <div class="container">
@@ -59,9 +59,14 @@
      </div>
     </div>
    </div>
-   
   </div>
-  <div class="col-md-12">
+
+
+  
+ </body>
+</html>
+
+<div class="col-md-12">
   <div class="row">
         <div class="table-responsive">
           <table class="table">
@@ -88,6 +93,3 @@
         </div>
       </div>
       </div>
-  
- </body>
-</html>
