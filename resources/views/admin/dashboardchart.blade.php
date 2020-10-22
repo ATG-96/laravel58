@@ -40,15 +40,14 @@
   
 
   <div class="container">
-   <h3 align="center">Make Google Pie Chart in Laravel</h3><br />
+   <h3 >Make Google Pie Chart in Laravel</h3><br />
    
    <div class="card">
     <div class="row">
-     <h3 class="panel-title">Percentage of Male and Female Employee<a href="/dashboardsafe/"class="btn btn-success">Go</a></h3>
-     <h3>$time</h3>
+     <h3 class="panel-title">Percentage of Male and Female Employee  <a href="/dashboardsafe/"class="btn btn-success">Go</a></h3>
     </div>
-    <div class="panel-body" align="center">
-     <div id="pie_chart" style="width:750px; height:450px;">
+    <div class="panel-body"　>
+     <div id="pie_chart" style="width:225px; height:135px;">
 
      </div>
     </div>
