@@ -55,14 +55,14 @@
     </div>
     <div class="panel-body" align="center">
      <div id="pie_chart" style="width:750px; height:450px;">
-
+      
      </div>
     </div>
    </div>
   </div>
 
  
-  <div class="container">
+  <!-- <div class="container">
         <div class="table-responsive">
           <table class="table">
             <thead class=" text-primary">
@@ -86,7 +86,7 @@
             </tbody>
           </table>
         </div>
-      </div>
+      </div> -->
       
 
 
