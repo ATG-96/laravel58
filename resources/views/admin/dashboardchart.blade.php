@@ -45,7 +45,7 @@
   <br/>
   
 
-  <div class="col-md-12">
+  <div class="container">
    <h3 align="center">Make Google Pie Chart in Laravel</h3><br />
    
    <div class="panel panel-default">
