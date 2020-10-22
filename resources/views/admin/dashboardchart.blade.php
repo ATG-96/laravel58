@@ -10,9 +10,7 @@
 
 @section('content')
 
-<!DOCTYPE html>
-<html>
- <head>
+
   <title>Make Google Pie Chart in Laravel</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -34,7 +32,7 @@
     chart.draw(data, options);
    }
   </script>
- </head>
+
  <body>
   <br />
   
