@@ -46,10 +46,10 @@
     <div class="row">
      <h3 class="panel-title">Percentage of Male and Female Employee  <a href="/dashboardsafe/"class="btn btn-success">Go</a></h3>
     </div>
-    <div class="panel-body"　>
-     <div id="pie_chart" style="width:225px; height:135px;">
+    
+     <div id="pie_chart" style="width:375px; height:225px;">
 
-     </div>
+    
     </div>
    </div>
   </div>
