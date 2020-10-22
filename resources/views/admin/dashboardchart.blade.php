@@ -43,6 +43,8 @@
  </head>
  <body>
   <br />
+  
+
   <div class="container">
    <h3 align="center">Make Google Pie Chart in Laravel</h3><br />
    
@@ -59,8 +61,8 @@
    </div>
    
   </div>
-
-  <div class="card-body">
+  <div class="col-md-12">
+  <div class="row">
         <div class="table-responsive">
           <table class="table">
             <thead class=" text-primary">
@@ -84,6 +86,7 @@
             </tbody>
           </table>
         </div>
+      </div>
       </div>
   
  </body>
