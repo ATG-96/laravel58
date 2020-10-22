@@ -48,8 +48,8 @@
   <div class="container">
    <h3 align="center">Make Google Pie Chart in Laravel</h3><br />
    
-   <div class="panel panel-default">
-    <div class="panel-heading">
+   <div class="card">
+    <div class="row">
      <h3 class="panel-title">Percentage of Male and Female Employee<a href="/dashboardsafe/"class="btn btn-success">Go</a></h3>
      <h3>$time</h3>
     </div>
