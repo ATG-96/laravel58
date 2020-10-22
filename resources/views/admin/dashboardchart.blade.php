@@ -42,10 +42,10 @@
   </script>
  </head>
  <body>
-  <br />
+  <br/>
   
 
-  <div class="container">
+  <div class="col-md-12">
    <h3 align="center">Make Google Pie Chart in Laravel</h3><br />
    
    <div class="panel panel-default">
