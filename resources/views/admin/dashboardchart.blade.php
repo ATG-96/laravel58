@@ -42,10 +42,19 @@
    var analytics = <?php echo $gender; ?>
 
    google.charts.load('current', {'packages':['corechart']});
-   google.charts.load('current', {'packages':['corechart']});
+   
 
    google.charts.setOnLoadCallback(drawChart);
 
+   function drawChart()
+   {
+    var data = google.visualization.arrayToDataTable(analytics);
+    var options = {
+     title : 'Percentage of Male and Female Employee'
+    };
+    var chart = new google.visualization.PieChart(document.getElementById('pie_chart'));
+    chart.draw(data, options);
+   }
    function drawChart()
    {
     var data = google.visualization.arrayToDataTable(analytics);
