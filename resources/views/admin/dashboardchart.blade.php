@@ -62,12 +62,13 @@
     <div id="col21" class=".col-md-3 .offset-md-3">
       <div class="card">
         <div class="card-header">
-          <h4 class="card-title"> Detailed Search</h4>
+          <h4 class="card-title"> Fast Search</h4>
         </div>
         <div class="card-body">
           <button type="button" class="btn btn-success">Replied</button>
           <button type="button" class="btn btn-danger">Didn't Reply</button>
         </div>
+        <h4 class="card-title"> Fast Search</h4>
       <div>
     <div>
   </div>
