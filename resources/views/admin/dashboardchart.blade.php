@@ -5,23 +5,15 @@
 @endsection
 
 @section('l3')
-    class="active "
+    class="active"
 @endsection
 
 @section('content')
 
-<title>Make Google Pie Chart in Laravel</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-  <style type="text/css">
-   .box{
-    width:800px;
-    margin:0 auto;
-   }
-  </style>
 
-  <br />
   <!-- start container-->
   <div class="container-fluid">
    <h3 style="text-align:center;">Make Google Pie Chart </h3><br/>
@@ -54,36 +46,36 @@
 
 
   <script type="text/javascript">
-   var analytics = <?php echo $gender; ?>
+      var analytics = <?php echo $gender; ?>
 
-   google.charts.load('current', {'packages':['corechart']});
+      google.charts.load('current', {'packages':['corechart']});
+      
+
+      google.charts.setOnLoadCallback(drawChart);
+
+      google.charts.setOnLoadCallback(drawChart1);
+
+      function drawChart()
+      {
+        var data = google.visualization.arrayToDataTable(analytics);
+        var options = {
+        title : 'Percentage of Male and Female Employee'
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('pie_chart'));
+        chart.draw(data, options);
+      }
+
+      function drawChart1()
+      {
+        var data = google.visualization.arrayToDataTable(analytics);
+        var options = {
+        title : 'Percentage of Male and Female Employee'
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('pie_chart1'));
+        chart.draw(data, options);
+      }
    
-
-   google.charts.setOnLoadCallback(drawChart);
-
-   google.charts.setOnLoadCallback(drawChart1);
-
-   function drawChart()
-   {
-    var data = google.visualization.arrayToDataTable(analytics);
-    var options = {
-     title : 'Percentage of Male and Female Employee'
-    };
-    var chart = new google.visualization.PieChart(document.getElementById('pie_chart'));
-    chart.draw(data, options);
-   }
-
-   function drawChart1()
-   {
-    var data = google.visualization.arrayToDataTable(analytics);
-    var options = {
-     title : 'Percentage of Male and Female Employee'
-    };
-    var chart = new google.visualization.PieChart(document.getElementById('pie_chart1'));
-    chart.draw(data, options);
-   }
-   
-   </script>
+  </script>
 
 @endsection
  
