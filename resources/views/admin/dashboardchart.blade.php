@@ -45,6 +45,7 @@
    
 
    google.charts.setOnLoadCallback(drawChart);
+   google.charts.setOnLoadCallback(drawChart2);
 
    function drawChart()
    {
@@ -55,7 +56,8 @@
     var chart = new google.visualization.PieChart(document.getElementById('pie_chart'));
     chart.draw(data, options);
    }
-   function drawChart()
+
+   function drawChart2()
    {
     var data = google.visualization.arrayToDataTable(analytics);
     var options = {
@@ -64,6 +66,7 @@
     var chart = new google.visualization.PieChart(document.getElementById('pie_chart'));
     chart.draw(data, options);
    }
+   
    </script>
 
 @endsection
