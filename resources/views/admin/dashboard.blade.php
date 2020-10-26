@@ -81,8 +81,10 @@
         <div class="card-header">
           <h4 class="card-title"> Detailed Search</h4>
         </div>
-    <button type="button" class="btn btn-success">Safe</button>
-    <button type="button" class="btn btn-danger">Not Safe</button>
+        <div class="card-body">
+          <button type="button" class="btn btn-success">Safe</button>
+          <button type="button" class="btn btn-danger">Not Safe</button>
+        </div>
       </div>
     </div>
   </div>
