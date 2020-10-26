@@ -18,6 +18,7 @@
 
   #pie_chart1 svg {
     width: 550px !important;
+    margin-left:600px !important;
     
     
   }
