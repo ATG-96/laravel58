@@ -40,7 +40,7 @@
 </div>
 
   <div class="row">
-    <div class="col-10">
+    <div class="col-9">
       <div class="card">
         <div class="card-header">
           <h4 class="card-title"> Registered Roles</h4>
