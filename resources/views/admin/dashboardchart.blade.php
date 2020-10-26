@@ -53,7 +53,11 @@
       <!-- end row-->
     </div>
     <!-- end panel -->
-    <!-- start row-->
+
+  </div>
+    <!-- end row-->
+  
+    <!-- start row 2 -->
   <div class="row">
     <div id="col21" class=".col-md-3 .offset-md-3">
       <div class="card">
@@ -67,10 +71,9 @@
       <div>
     <div>
   </div>
-    
+  <!-- end row 2 -->
 
-  </div>
-    <!-- end row-->
+  
   </div>
   <!-- end container-->
 
