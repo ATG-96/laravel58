@@ -42,6 +42,7 @@
    var analytics = <?php echo $gender; ?>
 
    google.charts.load('current', {'packages':['corechart']});
+   google.charts.load('current', {'packages':['corechart']});
 
    google.charts.setOnLoadCallback(drawChart);
 
