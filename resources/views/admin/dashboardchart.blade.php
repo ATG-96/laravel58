@@ -13,7 +13,7 @@
 <style>
   #pie_chart svg {
     width: 550px !important;
-    margin-right:600px !important;
+    margin-right:500px !important;
   }
 
   #pie_chart1 svg {
