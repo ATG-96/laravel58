@@ -26,7 +26,7 @@
 </style> -->
 
   <!-- start container-->
-  <div class="container-fluid" style="margin-top:20px;">
+  <div class="container-fluid" style="margin-top:80px;">
    <!-- <h3 style="text-align:center;margin-top:2%;">Make Google Pie Chart </h3> -->
    
    
