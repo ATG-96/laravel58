@@ -13,32 +13,38 @@
 
 
   <br />
-  <div class="container">
-   <h3 align="center">Make Google Pie Chart </h3><br />
+  <!-- start container-->
+  <div class="container-fluid">
+   <h3 style="text-align:center;">Make Google Pie Chart </h3><br />
    
-   <div align="center" class="panel panel-default">
-    <div align="center" class="panel-heading">
-     <h3 align="center" class="panel-title">Percentage of Male and Female Employee</h3>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 col-md-8 col-sm-12">
-        <div class="panel-body" align="center">
-          <div id="pie_chart" style="width:750px; height:450px;">
-        </div>
+   <!-- start panel-->
+   <div class="panel panel-default">
+      <div class="panel-heading">
+          <h3 style="text-align:center;" class="panel-title">Percentage of Male and Female Employee</h3>
       </div>
 
-      <div class="col-lg-6 col-md-8 col-sm-12">
-        <div class="panel-body">
-            <div id="pie_chart1" style="width:750px; height:450px;">
+      <!-- start chart row-->
+      <div class="row">
+        <div id="col1" class="col-lg-6 col-md-8 col-sm-12">
+          <div class="panel-body" align="center">
+            <div id="pie_chart" style="width:750px; height:450px;">
+          </div>
+        </div>
+
+        <div id="col2" class="col-lg-6 col-md-8 col-sm-12">
+          <div class="panel-body">
+              <div id="pie_chart1" style="width:750px; height:450px;">
+          </div>
         </div>
       </div>
-    </div>
+      <!-- end row-->
       
       
     </div>
+    <!-- end panel -->
+
    </div>
-   
-  </div>
+   <!-- end container-->
   <title>Make Google Pie Chart in Laravel</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
