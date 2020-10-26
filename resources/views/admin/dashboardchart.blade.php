@@ -39,13 +39,13 @@
       <div class="row">
         <div id="col1" class="col-lg-6 col-md-6 col-sm-12">
           <div class="panel-body">
-            <div id="pie_chart" style="width:500px; height:350px;"></div>
+            <div id="pie_chart" style="width:550px; height:350px;"></div>
           </div>
         </div>
 
         <div id="col2" class="col-lg-6 col-md-6 col-sm-12">
           <div class="panel-body">
-              <div id="pie_chart1" style="width:500px; height:350px;"></div>
+              <div id="pie_chart1" style="width:550px; height:350px;"></div>
           </div>
         </div>
       </div>
