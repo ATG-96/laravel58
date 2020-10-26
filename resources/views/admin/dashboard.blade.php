@@ -40,7 +40,7 @@
 </div>
 
   <div class="row">
-    <div class="col-8">
+    <div class="col-10">
       <div class="card">
         <div class="card-header">
           <h4 class="card-title"> Registered Roles</h4>
@@ -76,7 +76,7 @@
         </div>
       </div>
     </div>
-    <div class="col-4">
+    <div class=".col-md-3 .offset-md-3">
       <div class="card">
         <div class="card-header">
           <h4 class="card-title"> Detailed Search</h4>
