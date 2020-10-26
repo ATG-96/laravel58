@@ -14,6 +14,25 @@
 <!DOCTYPE html>
 <html>
  <head>
+  
+ </head>
+ <body>
+  <br />
+  <div class="container">
+   <h3 align="center">Make Google Pie Chart in Laravel</h3><br />
+   
+   <div align="center" class="panel panel-default">
+    <div align="center" class="panel-heading">
+     <h3 align="center" class="panel-title">Percentage of Male and Female Employee</h3>
+    </div>
+    <div class="panel-body" align="center">
+     <div id="pie_chart" style="width:750px; height:450px;">
+
+     </div>
+    </div>
+   </div>
+   
+  </div>
   <title>Make Google Pie Chart in Laravel</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -41,24 +60,6 @@
     chart.draw(data, options);
    }
   </script>
- </head>
- <body>
-  <br />
-  <div class="container">
-   <h3 align="center">Make Google Pie Chart in Laravel</h3><br />
-   
-   <div align="center" class="panel panel-default">
-    <div align="center" class="panel-heading">
-     <h3 align="center" class="panel-title">Percentage of Male and Female Employee</h3>
-    </div>
-    <div class="panel-body" align="center">
-     <div id="pie_chart" style="width:750px; height:450px;">
-
-     </div>
-    </div>
-   </div>
-   
-  </div>
  </body>
 </html>
 
