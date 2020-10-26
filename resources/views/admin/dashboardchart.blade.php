@@ -68,7 +68,7 @@
           <button type="button" class="btn btn-success">Replied</button>
           <button type="button" class="btn btn-danger">Didn't Reply</button>
         </div>
-        <p class="card-text" style="margin-top:10px;">Or Search By Student ID</p>
+        <h5 class="card-text" style="margin-left:5px;">Or Search By Student ID</h5>
       <div>
     <div>
   </div>
