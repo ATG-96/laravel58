@@ -43,10 +43,10 @@ class DashboardController extends Controller
    }
    //my code
 
-   public function dashboard()
+   public function dashboardtemp()
    {
-        $tempcheck = DB::select('SELECT public.users_line.user_id, public.users_line.user_name, public.temp_check.line_id, public.temp_check.temp, public.temp_check.temp_time FROM public.temp_check,public.users_line WHERE public.users_line.line_userid = public.temp_check.line_id ');
-        return view('admin.dashboard1')->with('tempcheck',$tempcheck);      
+        $dashtempcheck = DB::select('SELECT public.users_line.user_id, public.users_line.user_name, public.temp_check.line_id, public.temp_check.temp, public.temp_check.temp_time FROM public.temp_check,public.users_line WHERE public.users_line.line_userid = public.temp_check.line_id ');
+        return view('admin.dashboard')->with('dashtempcheck',$dashtempcheck);      
         
    }
 

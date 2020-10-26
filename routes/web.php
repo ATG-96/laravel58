@@ -23,6 +23,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['middleware' => ['auth', 'admin']], function () {
     Route::get('/dashboard', 'Admin\DashboardController@getSafeCheck');
+    Route::get('/dashboard','Admin\DashboardController@dashtempcheck');
     Route::get('/dashboard1','Admin\DashboardController@dashboard1');
     Route::get('/dashboard2','Admin\DashboardController@dashboard2');
     Route::get('/dashboardchart','LaravelGoogleGraph@index');
