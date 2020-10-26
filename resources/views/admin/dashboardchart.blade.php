@@ -46,7 +46,7 @@
 
    google.charts.setOnLoadCallback(drawChart);
 
-   google.charts.setOnLoadCallback(drawChart2);
+   google.charts.setOnLoadCallback(drawChart);
 
    function drawChart()
    {
