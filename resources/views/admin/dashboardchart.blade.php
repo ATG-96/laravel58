@@ -9,7 +9,6 @@
 @endsection
 
 @section('content')
-<br />
   <div class="container">
    <h3 align="center">Make Google Pie Chart in Laravel</h3><br />
    
