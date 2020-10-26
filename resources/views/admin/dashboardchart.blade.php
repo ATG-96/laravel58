@@ -9,6 +9,10 @@
 @endsection
 
 @section('content')
+
+
+
+  <br />
   <div class="container">
    <h3 align="center">Make Google Pie Chart in Laravel</h3><br />
    
@@ -50,9 +54,8 @@
     var chart = new google.visualization.PieChart(document.getElementById('pie_chart'));
     chart.draw(data, options);
    }
-  </script>
+   </script>
 
 @endsection
-  
  
 
