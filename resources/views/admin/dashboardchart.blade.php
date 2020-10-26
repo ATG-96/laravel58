@@ -10,11 +10,19 @@
 
 @section('content')
 
+<style>
+  #pie_chart svg {
+    width: 550px !important;
+  }
 
+  #pie_chart1 svg {
+    width: 550px !important;
+  }
+</style>
 
   <!-- start container-->
   <div class="container-fluid">
-   <h3 style="text-align:center;">Make Google Pie Chart </h3><br/>
+   <h3 style="text-align:center;margin-top:2%;">Make Google Pie Chart </h3><br/>
    
    <!-- start panel-->
     <div class="panel panel-default">
