@@ -40,7 +40,7 @@
 </div>
 
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-8">
       <div class="card">
         <div class="card-header">
           <h4 class="card-title"> Registered Roles</h4>
@@ -76,8 +76,15 @@
         </div>
       </div>
     </div>
+    <div class="col-4">
+      <div class="card">
+        <div class="card-header">
+          <h4 class="card-title"> Detailed Search</h4>
+        </div>
     <button type="button" class="btn btn-success">Safe</button>
     <button type="button" class="btn btn-danger">Not Safe</button>
+      </div>
+    </div>
   </div>
 
 @endsection
