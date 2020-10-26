@@ -10,9 +10,7 @@
 
 @section('content')
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+
 
   <!-- start container-->
   <div class="container-fluid">
@@ -27,14 +25,14 @@
       <!-- start chart row-->
       <div class="row">
         <div id="col1" class="col-lg-6 col-md-6 col-sm-12">
-          <div class="panel-body" align="center">
-            <div id="pie_chart" style="width:750px; height:450px;">
+          <div class="panel-body">
+            <div id="pie_chart" style="width:750px; height:450px;"></div>
           </div>
         </div>
 
         <div id="col2" class="col-lg-6 col-md-6 col-sm-12">
           <div class="panel-body">
-              <div id="pie_chart1" style="width:750px; height:450px;">
+              <div id="pie_chart1" style="width:750px; height:450px;"></div>
           </div>
         </div>
       </div>

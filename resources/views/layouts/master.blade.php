@@ -34,11 +34,16 @@
   <link href="../assets/css/now-ui-dashboard.css?v=1.5.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="../assets/demo/demo.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 </head>
 
-<body class="">
-  <div class="wrapper ">
+<body>
+  <!--start wrapper-->
+  <div class="wrapper">
 
+    <!-- start sidebar-->
     <div class="sidebar" data-color="orange">
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
@@ -88,7 +93,9 @@
         </ul>
       </div>
     </div>
+    <!-- end sidebar-->
 
+    <!-- start content-->
     <div class="main-panel" id="main-panel">
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-transparent  bg-primary  navbar-absolute">
@@ -178,7 +185,7 @@
 
       <div class="panel-header panel-header-sm">
       </div>
-      
+
       <div class="content">
 
         @yield('content')
@@ -196,7 +203,10 @@
         </div>
       </footer>
     </div>
+    <!--end content-->
+
   </div>
+  <!--end wrapper-->
   <!--   Core JS Files   -->
   <script src="../assets/js/core/jquery.min.js"></script>
   <script src="../assets/js/core/popper.min.js"></script>
