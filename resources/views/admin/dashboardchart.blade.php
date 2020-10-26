@@ -11,12 +11,7 @@
 @section('content')
 
 
-<!DOCTYPE html>
-<html>
- <head>
-  
- </head>
- <body>
+
   <br />
   <div class="container">
    <h3 align="center">Make Google Pie Chart in Laravel</h3><br />
@@ -60,6 +55,5 @@
     chart.draw(data, options);
    }
   </script>
- </body>
-</html>
+ 
 
