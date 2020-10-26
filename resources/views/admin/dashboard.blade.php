@@ -76,6 +76,8 @@
         </div>
       </div>
     </div>
+    <button type="button" class="btn btn-success">Safe</button>
+    <button type="button" class="btn btn-danger">Not Safe</button>
   </div>
 
 @endsection
