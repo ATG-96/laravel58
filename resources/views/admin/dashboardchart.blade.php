@@ -45,6 +45,7 @@
    
 
    google.charts.setOnLoadCallback(drawChart);
+
    google.charts.setOnLoadCallback(drawChart2);
 
    function drawChart()
@@ -57,7 +58,7 @@
     chart.draw(data, options);
    }
 
-   function drawChart2()
+   function drawChart()
    {
     var data = google.visualization.arrayToDataTable(analytics);
     var options = {
