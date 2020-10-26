@@ -20,10 +20,9 @@
     <div align="center" class="panel-heading">
      <h3 align="center" class="panel-title">Percentage of Male and Female Employee</h3>
     </div>
-      <div class="panel-body" align="center">
+      <!-- <div class="panel-body" align="center">
         <div id="pie_chart" style="width:750px; height:450px;">
-      
-      </div>
+      </div> -->
       <div class="panel-body">
           <div id="pie_chart1" style="width:750px; height:450px;">
       </div>
