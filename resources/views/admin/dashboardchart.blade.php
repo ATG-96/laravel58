@@ -58,7 +58,7 @@
     <!-- end row-->
   
     <!-- start row 2 -->
-  <div class="row">
+  <div class="row" style="margin-left:20px;">
     <div id="col21" class=".col-md-3 .offset-md-3">
       <div class="card">
         <div class="card-header">
