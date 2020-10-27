@@ -14,8 +14,12 @@ class DashboardController extends Controller
        $users = User::all();
        return view('admin.register')->with('users',$users);
    }
+   public function dashboard()
+   {
+       
+   }
 
-   public function getSafeCheck($reply)
+   public function dashboard1()
    {
        $safecheck = DB::select('SELECT public.users_line.user_id, public.users_line.user_name, public.safe_check.line_id, public.safe_check.is_safe, public.safe_check.safe_location, public.safe_check.safe_mess, public.safe_check.time_update FROM public.safe_check,public.users_line WHERE public.users_line.line_userid = public.safe_check.line_id ');
        //return view('admin.dashboardchart')->with('safecheck',$safecheck); 
@@ -35,6 +39,13 @@ class DashboardController extends Controller
         //return view('admin.dashboardchart', compact('bus','user','employer'));
    }
 
+      public function dashboard2()
+   {
+        $tempcheck = DB::select('SELECT public.users_line.user_id, public.users_line.user_name, public.temp_check.line_id, public.temp_check.temp, public.temp_check.temp_time FROM public.temp_check,public.users_line WHERE public.users_line.line_userid = public.temp_check.line_id ');
+        return view('admin.dashboard2')->with('tempcheck',$tempcheck);      
+        
+   }
+
    public function getSafeCheck1()
    {
         $fields = Input::get('defaultExampleRadios');
@@ -49,12 +60,7 @@ class DashboardController extends Controller
 
              
    }
-   public function dashboard1()
-   {
-        $tempcheck = DB::select('SELECT public.users_line.user_id, public.users_line.user_name, public.temp_check.line_id, public.temp_check.temp, public.temp_check.temp_time FROM public.temp_check,public.users_line WHERE public.users_line.line_userid = public.temp_check.line_id ');
-        return view('admin.dashboard1')->with('tempcheck',$tempcheck);      
-        
-   }
+
    //my code
 
    public function dashboardtemp()
@@ -64,8 +70,5 @@ class DashboardController extends Controller
         
    }
 
-   public function dashboard2()
-   {
-        return view('admin.dashboard2');
-   }
+   
 }
