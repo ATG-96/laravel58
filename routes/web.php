@@ -30,7 +30,7 @@ Route::group(['middleware' => ['auth', 'admin']], function () {
     Route::get('/dashboardchart','LaravelGoogleGraph@index','Admin\DashboardController@getSafeCheck');
 
     Route::get('/dashboardsafe','LaravelGoogleGraph@index');
-
+    
 
     
     Route::get('/role-register','Admin\DashboardController@registered');
