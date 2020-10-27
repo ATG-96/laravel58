@@ -65,7 +65,7 @@
           <h4 class="card-title"> Fast Search</h4>
         </div>
         <div class="card-body">
-          <button type="button" class="btn btn-success">Replied</button>
+          <button type="button" class="btn btn-success">Not Safe</button>
           <button type="button" class="btn btn-danger">Didn't Reply</button>
         </div>
         <h5 class="card-text" style="margin:30px;">Or Search By Student ID</h5>
