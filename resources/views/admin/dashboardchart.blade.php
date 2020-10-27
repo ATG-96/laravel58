@@ -68,8 +68,8 @@
           <button type="button" class="btn btn-success">Replied</button>
           <button type="button" class="btn btn-danger">Didn't Reply</button>
         </div>
-        <h5 class="card-text" style="margin-left:15px;">Or Search By Student ID</h5>
-        <form class="example" action="/action_page.php" style="margin:20px;max-width:200px">
+        <h5 class="card-text" style="margin:2%;">Or Search By Student ID</h5>
+        <form class="example" action="/action_page.php" style="margin:2%;max-width:200px">
           <input type="text" placeholder="Search.." name="search2">
           <button type="submit"><i class="fa fa-search"></i></button>
         </form>
