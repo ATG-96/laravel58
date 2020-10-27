@@ -22,7 +22,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::group(['middleware' => ['auth', 'admin']], function () {
-    Route::get('/dashboard', '');
+    //Route::get('/dashboard', '');
     Route::get('/dashboard1','Admin\DashboardController@dashboard1');
     Route::get('/dashboard2','Admin\DashboardController@dashboard2');
 
