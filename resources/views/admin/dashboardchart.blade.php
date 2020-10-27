@@ -73,8 +73,11 @@
           <input type="text" placeholder="Search.." name="search2">
           <button type="submit"><i class="fa fa-search"></i></button>
         </form>
-      <div>
-    <div>
+      </div>
+    </div>
+    <!-- start Table colomn 2 -->
+    <!-- end Table colomn 2 -->
+
   </div>
   <!-- end row 2 -->
 
