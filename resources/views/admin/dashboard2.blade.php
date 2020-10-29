@@ -70,7 +70,7 @@
 
         </div>
         <div class="card-body">
-          <button class="btn info" style="margin:30px;">3 Consecutive Days</button>
+          <button class="btn info" style="margin-left:30px;">3 Consecutive Days</button>
         </div>
         <h5 class="card-text" style="margin:30px;">Or Search By Student ID</h5>
         <form class="example" action="/action_page.php" style="margin:30px;max-width:200px">
