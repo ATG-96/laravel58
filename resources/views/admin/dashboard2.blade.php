@@ -65,8 +65,8 @@
           <h4 class="card-title"> Fast Search</h4>
         </div>
         <div class="card-body">
-          <button type="button" class="btn btn-success">Not Safe</button>
-          <button type="button" class="btn btn-danger">Didn't Reply</button>
+          <button type="button" class="btn btn-success">More Than 37.5</button>
+          <button type="button" class="btn btn-danger">Didn't Check</button>
         </div>
         <h5 class="card-text" style="margin:30px;">Or Search By Student ID</h5>
         <form class="example" action="/action_page.php" style="margin:30px;max-width:200px">
