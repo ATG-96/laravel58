@@ -67,7 +67,7 @@
         <div class="card-body">
           <button type="button" class="btn btn-success">More Than 37.5</button>
           <button type="button" class="btn btn-danger">Didn't Check</button>
-          <button class="btn info">Info</button>
+
         </div>
         <div class="card-body">
           <button class="btn info">Info</button>
