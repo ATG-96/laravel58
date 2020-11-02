@@ -15,11 +15,14 @@ class LaravelGoogleGraph extends Controller
         DB::raw('count(*) as number'))
        ->groupBy('gender')
        ->get();
+        
      $array[] = ['Gender', 'Number'];
      foreach($data as $key => $value)
+
      {
       $array[++$key] = [$value->gender, $value->number];
      }
+     error_log($data);
      return view('admin.dashboardchart')->with('gender', json_encode($array));
     }
 
