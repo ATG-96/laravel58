@@ -10,10 +10,10 @@ class LaravelGoogleGraph extends Controller
     function index()
     {
      $data = DB::table('tbl_employee')
-       ->select(
-        DB::raw('gender as gender'),
-        DB::raw('count(*) as number'))
-       ->groupBy('gender')
+      //  ->select(
+      //   DB::raw('gender as gender'),
+      //   DB::raw('count(*) as number'))
+      //  ->groupBy('gender')
        ->get();
         
      $array[] = ['Gender', 'Number'];
@@ -22,7 +22,6 @@ class LaravelGoogleGraph extends Controller
      {
       $array[++$key] = [$value->gender, $value->number];
      }
-     error_log($data);
      return view('admin.dashboardchart')->with('gender', json_encode($array));
     }
 
