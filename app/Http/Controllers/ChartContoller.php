@@ -17,7 +17,7 @@ class ChartContoller extends Controller
                 })
             ->where(`safe_check.line_id`, `IS`, NULL)
             ->get();
-        print_r($a);
+        // print_r($a);
         $b=2;
     $pie  =	 Charts::create('pie', 'highcharts')
         ->title('Rep or not')
