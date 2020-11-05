@@ -9,7 +9,7 @@ use Charts;
 class ChartContoller extends Controller
 {
     public function index(){
-        $a=select(DB::raw('count(*)'))
+        $a=DB::raw('count(*)')
         //$a=DB::table('users_line')
          //   ->addSelect(DB::raw(`count(*)`))
             ->from(`users_line`)
