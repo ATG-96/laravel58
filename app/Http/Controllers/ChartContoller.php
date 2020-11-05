@@ -9,8 +9,9 @@ use Charts;
 class ChartContoller extends Controller
 {
     public function index(){
-        $a=DB::table('users_line')
-            ->addSelect(DB::raw(`count(*)`))
+        $a=select(DB::raw('count(*)'))
+        //$a=DB::table('users_line')
+         //   ->addSelect(DB::raw(`count(*)`))
             ->from(`users_line`)
             ->leftjoin(`safe_check`, function($join) {
                 $join->on(`users_line.line_userid`, `=`, `safe_check.line_id`);
