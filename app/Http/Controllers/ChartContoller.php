@@ -17,7 +17,7 @@ class ChartContoller extends Controller
                 $join->on(`users_line.line_userid`, `=`, `safe_check.line_id`);
                 })
             ->where(`safe_check.line_id`, `IS`, NULL)
-            ->first();
+            ->get();
         // print_r($a);
         $b=2;
     $pie  =	 Charts::create('pie', 'highcharts')
