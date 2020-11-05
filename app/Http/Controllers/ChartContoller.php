@@ -12,8 +12,8 @@ class ChartContoller extends Controller
         $a=DB::table('users_line')
             ->addSelect(DB::raw(`count(*)`))
             ->from(`users_line`)
-            ->join(`safe_check`, function($leftjoin) {
-                $leftjoin->on(`users_line.line_userid`, `=`, `safe_check.line_id`);
+            ->leftjoin(`safe_check`, function($join) {
+                $join->on(`users_line.line_userid`, `=`, `safe_check.line_id`);
                 })
             ->where(`safe_check.line_id`, `IS`, NULL)
             ->get();
