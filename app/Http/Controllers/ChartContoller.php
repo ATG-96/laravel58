@@ -10,7 +10,6 @@ class ChartContoller extends Controller
 {
     public function index(){
         $a=DB::table('users_line')
-            ->addSelect(DISTINCT)
             ->addSelect(DB::raw(`count(*)`))
             ->from(`users_line`)
             ->join(`safe_check`, function($join) {
