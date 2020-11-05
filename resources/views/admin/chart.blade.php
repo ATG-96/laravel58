@@ -9,12 +9,24 @@
 @endsection
 
 @section('content')
-<div>
-    {!!$pie->html() !!}
+<div >
+  <div >
+    <div >
+      <div >
+        <div >Chart Demo</div>
+
+        
+
+        <hr>
+        {!!$pie->html() !!}
+      </div>
+    </div>
+  </div>
 </div>
-  
- 
-{!! $pie-> scripts() !!}
+{!! Charts::scripts() !!}
+
+
+{!! $pie->script() !!}
 @endsection
 
 @section('scripts')
