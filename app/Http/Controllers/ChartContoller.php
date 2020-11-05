@@ -12,7 +12,7 @@ class ChartContoller extends Controller
         ->title('Rep or not')
         ->labels(['Replied', 'Not repply'])
         ->values([2,1])
-        ->dimensions(1000,500)
+        ->dimensions(510,350)
         ->responsive(false);
     return view('admin.chart')->with('gender', json_encode($pie))->with('pie',$pie);
     }
