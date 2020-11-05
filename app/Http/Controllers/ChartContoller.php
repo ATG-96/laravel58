@@ -10,7 +10,7 @@ class ChartContoller extends Controller
 {
     public function index(){
         // $a=DB::table('users_line')
-        //  //   ->addSelect(DB::raw(`count(*)`))
+        //     ->addSelect(DB::raw(`count(*)`))
         //     ->from(`users_line`)
         //     ->leftjoin(`safe_check`, function($join) {
         //         $join->on(`users_line.line_userid`, `=`, `safe_check.line_id`);
@@ -18,14 +18,10 @@ class ChartContoller extends Controller
         //     ->where(`safe_check.line_id`, `IS`, NULL)
         //     ->get();
         // // print_r($a);
-        $a=DB::select()
-            ->addSelect(DB::raw(`count(*)`))
-            ->from(`users_line`)
-            ->leftjoin(`safe_check`, function($join) {
-                $join->on(`users_line.line_userid`, `=`, `safe_check.line_id`);
-                })
-            ->where(`safe_check.line_id`, `IS`, NULL)
-            ->first();
+        $a=DB::table('users_line')
+        ->leftjoin(`count(*)`,`users_line.line_userid`, `=`, `safe_check.line_id`)
+        ->get();
+    // print_r($a);
         $b=2;
     $pie  =	 Charts::create('pie', 'highcharts')
         ->title('Rep or not')
