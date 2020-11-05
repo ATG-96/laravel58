@@ -34,8 +34,8 @@ Route::group(['middleware' => ['auth', 'admin']], function () {
     Route::get('/dashboardsafe','LaravelGoogleGraph@index');
 
     //Route::get('/dashboardsafe','LaravelGoogleGraph@index');
-    Route::get('/chart','LaravelGoogleGraph@index');
-    
+    //Route::get('/chart','LaravelGoogleGraph@index');
+    Route::get('chart', 'ChartController@index');
 
     
     Route::get('/role-register','Admin\DashboardController@registered');
