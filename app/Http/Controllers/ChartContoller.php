@@ -18,11 +18,13 @@ class ChartContoller extends Controller
         //     ->where(`safe_check.line_id`, `IS`, NULL)
         //     ->get();
         // // print_r($a);
+        
         $a=DB::table('users_line')
-        ->leftjoin(`count(*)`,`users_line.line_userid`, `=`, `safe_check.line_id`)
-        ->where(`safe_check.line_id`, `IS`, NULL)
-        ->get();
-    // print_r($a);
+            ->leftjoin(`count(*)`,`users_line.line_userid`, `=`, `safe_check.line_id`)
+            ->where(`safe_check.line_id`, `IS`, NULL)
+            ->get();
+        
+     print_r($a);
         $b=2;
     $pie  =	 Charts::create('pie', 'highcharts')
         ->title('Rep or not')
