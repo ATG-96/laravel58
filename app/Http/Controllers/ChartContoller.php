@@ -19,7 +19,7 @@ class ChartContoller extends Controller
         //     ->get();
         // // print_r($a);
         
-        $a=DB::table('users_line','safe_check')
+        $a=DB::table('public.users_line','public.safe_check')
         ->select(DB::raw('line_userid,displayname,user_id'))
             ->leftjoin('line_userid','users_line.line_userid', '=', 'safe_check.line_id')
             ->where('safe_check.line_id', 'IS', NULL)
