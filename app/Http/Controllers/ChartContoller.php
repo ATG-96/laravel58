@@ -31,12 +31,12 @@ class ChartContoller extends Controller
          
         public.safe_check .line_id IS NULL');
          
-        print_r($a);
+        // print_r($a);
         $a = $a[0]->count;
-        print($a);
+        // print($a);
 
         $All= DB::select('SELECT 
-        
+        count(*) 
         FROM public.users_line');
 
         // $All = $All[0]->count;
