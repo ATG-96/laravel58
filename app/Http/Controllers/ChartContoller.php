@@ -31,27 +31,19 @@ class ChartContoller extends Controller
          
         public.safe_check .line_id IS NULL');
          
-        // print_r($a);
-        // $a = $a[0]->count;
-        // print($a);
+        $a = $a[0]->count;
+
 
         $All= DB::select('SELECT 
         count(*) 
         FROM public.users_line');
 
-        // $All = $All[0]->count;
+        $All = $All[0]->count;
 
-        
-        // print_r($All);
-        // $b= $All - $a;
-        $b= ($All[0]->count) - ($a[0]->count);
+        // $b= ($All[0]->count) - ($a[0]->count);
 
+        $b= $All - $a;
         print_r($b);
-
-
-        // $b=$All - $a;
-         
-
 
         $pie = Charts::create('pie', 'highcharts')
          ->title('Rep or not')
