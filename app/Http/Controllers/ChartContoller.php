@@ -34,11 +34,19 @@ class ChartContoller extends Controller
         print_r($a);
         $a = $a[0]->count;
         print($a);
+
+        $All= DB::select('SELECT 
+        count(*) 
+        FROM public.users_line');
+
+        $b=$All - $a;
          
+
+
         $pie = Charts::create('pie', 'highcharts')
          ->title('Rep or not')
          ->labels(['Replied', 'Not repply'])
-         ->values([2,$a])
+         ->values([$b,$a])
          ->dimensions(1000,500)
          ->responsive(false);
          
