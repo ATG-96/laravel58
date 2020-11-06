@@ -36,11 +36,19 @@ class ChartContoller extends Controller
         print($a);
 
         $All= DB::select('SELECT 
-        count(*) 
+        
         FROM public.users_line');
 
-        print_r($All);
+        $All = $All[0]->count;
+
         
+        print_r($All);
+
+        $b= $All[0]->count - $a[0]->count;
+
+        print_r($b);
+
+
         // $b=$All - $a;
          
 
