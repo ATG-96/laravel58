@@ -44,7 +44,7 @@ class ChartContoller extends Controller
         
         // print_r($All);
         // $b= $All - $a;
-        $b= $All[0]->count - ($a[0]->count);
+        $b= ($All[0]->count) - ($a[0]->count);
 
         print_r($b);
 
