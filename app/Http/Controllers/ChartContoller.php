@@ -42,6 +42,6 @@ class ChartContoller extends Controller
          ->dimensions(1000,500)
          ->responsive(false);
          
-         return view('admin.chart')->with('gender', json_encode($array))->with('pie',$pie);
+         return view('admin.chart')->with('pie',$pie);
          }
 }
