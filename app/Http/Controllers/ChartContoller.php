@@ -39,7 +39,7 @@ class ChartContoller extends Controller
         count(*) 
         FROM public.users_line');
 
-        // $All = $All[0]->count;
+        $All = $All[0]->count;
 
         
         print_r($All);
